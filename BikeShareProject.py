@@ -270,7 +270,7 @@ def display_raw_data(df, columns):
 
     while res != 'n':
         print(df[columns][i: i + 5])
-        res = input('Want to see more data? (y or n): ')
+        res = input('Want to see more data (5 more lines)? (y or n): ')
         i += 5
 
 
