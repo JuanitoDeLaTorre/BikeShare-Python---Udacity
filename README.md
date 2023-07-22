@@ -33,4 +33,4 @@ _Sources of information included Udacity's Programming for Data Science in Pytho
 
 ### Note
 
-The course-provided data for Washington did not include user demographic information like gender and birth year so concessions had to be made in the code to manage that data inconsistency.
+The course-provided data for Washington did not include user demographic information like gender and birth year so concessions had to be made in the code to manage that data inconsistency, particularly in the user statistics function starting on line 222.
