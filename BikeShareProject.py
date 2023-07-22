@@ -209,7 +209,7 @@ def trip_duration_stats(df):
 
 
     #   display mean travel time
-    print("• The mean travel time was about " + str(round(df['Total Travel Time'].sum().total_seconds() // 3600 / len(df['Total Travel Time']) * 60, 2)) + ' minutes.\n')
+    print("• The mean travel time was roughly " + str(round(df['Total Travel Time'].sum().total_seconds() // 3600 / len(df['Total Travel Time']) * 60, 2)) + ' minutes.\n')
 
     #ask the user if they want to display raw data using separate fx
     display_raw_data(df, ['Start Time', 'End Time', 'Total Travel Time'])
